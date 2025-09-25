@@ -4,7 +4,7 @@ const sendToken = async (user, statusCode, res) => {
     httpOnly: true,
     secure: true,
     maxAge: 24 * 60 * 60 * 1000,
-    sameSite: "None",
+    sameSite: "none",
   });
   return res.status(statusCode).json({
     success: true,
