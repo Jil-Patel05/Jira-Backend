@@ -4,7 +4,7 @@ const ErrorHandler = require("./helpers/errors/errorHandler");
 const cors = require("cors");
 const cookieparser = require("cookie-parser");
 app.use(express.json());
-const allowedOrigins = ["http://localhost:3000"];
+const allowedOrigins = ["https://jira-backend-yvqy.onrender.com"];
 
 app.use(
   cors({
